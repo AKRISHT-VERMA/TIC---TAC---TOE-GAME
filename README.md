@@ -22,10 +22,10 @@ git clone https://github.com/AKRISHT-VERMA/TIC---TAC---TOE-GAME.git
 cd tic-tac-toe
 ```
 ## CODE
+```python
 
-```Python
 
-rint("🎮 WELCOME TO THE TIC - TAC - TOE GAME 🎮")
+print("🎮 WELCOME TO THE TIC - TAC - TOE GAME 🎮")
 print("📌 THIS GAME USES DIAL-PAD STYLE NUMBERING (1–9) FOR POSITIONS\n")
 
 # Initial board setup
@@ -33,8 +33,6 @@ line1 = [1, 2, 3]
 line2 = [4, 5, 6]
 line3 = [7, 8, 9]
 
-
-```python
 
 def display():
     print("\n🟦 THE CURRENT TIC - TAC - TOE BOARD 🟦")
@@ -114,5 +112,17 @@ for _ in range(9):  # max moves
 else:
     print("\n🤝 It's a draw!")
 ```
+##🛠️ Technologies Used
 
+ .Python 3.13.5 🐍
+
+##🚀 Future Improvements
+
+  .🤖 Add AI opponent (minimax algorithm)
+
+   .🔁 Option for replay without restarting
+
+   .🎨 Improve UI/UX (colored board, better layout)
+
+   .🖼️ Create a GUI version using Tkinter/PyGame
 
