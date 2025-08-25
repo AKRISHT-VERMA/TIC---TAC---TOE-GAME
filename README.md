@@ -19,6 +19,7 @@ Play in the **terminal** using **dial pad-style numbering (1–9)** for selectin
 Clone the repo:  
 ```bash
 git clone https://github.com/AKRISHT-VERMA/TIC---TAC---TOE-GAME.git
+cd tic-tac-toe
 
 
 
