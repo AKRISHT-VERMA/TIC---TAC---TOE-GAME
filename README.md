@@ -112,11 +112,12 @@ for _ in range(9):  # max moves
 else:
     print("\n🤝 It's a draw!")
 ```
-##🛠️ Technologies Used
+
+## 🛠️ Technologies Used
 
  .Python 3.13.5 🐍
 
-##🚀 Future Improvements
+## 🚀 Future Improvements
 
   .🤖 Add AI opponent (minimax algorithm)
 
