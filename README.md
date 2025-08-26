@@ -68,38 +68,38 @@ def check_winner():
 def position():
     while True:
         try:
-            choice = int(input("\n👉 Enter the position (1-9): "))
+            choice = int(input("\n Enter the position (1-9): "))
             if choice not in range(1, 10):
-                print("⚠️ Invalid choice! Pick a number between 1 and 9.")
+                print(" Invalid choice! Pick a number between 1 and 9.")
                 continue
         except ValueError:
-            print("⚠️ Please enter a valid number.")
+            print(" Please enter a valid number.")
             continue
 
         # Place symbol
         if choice in line1:
-            symbol = input("❓ Enter your symbol ('X' or 'O'): ").upper()
+            symbol = input(" Enter your symbol ('X' or 'O'): ").upper()
             if symbol not in ["X", "O"]:
-                print("⚠️ Invalid symbol! Choose 'X' or 'O'.")
+                print(" Invalid symbol! Choose 'X' or 'O'.")
                 continue
             line1[line1.index(choice)] = symbol
             break
         elif choice in line2:
-            symbol = input("❓ Enter your symbol ('X' or 'O'): ").upper()
+            symbol = input(" Enter your symbol ('X' or 'O'): ").upper()
             if symbol not in ["X", "O"]:
-                print("⚠️ Invalid symbol! Choose 'X' or 'O'.")
+                print(" Invalid symbol! Choose 'X' or 'O'.")
                 continue
             line2[line2.index(choice)] = symbol
             break
         elif choice in line3:
-            symbol = input("❓ Enter your symbol ('X' or 'O'): ").upper()
+            symbol = input(" Enter your symbol ('X' or 'O'): ").upper()
             if symbol not in ["X", "O"]:
-                print("⚠️ Invalid symbol! Choose 'X' or 'O'.")
+                print(" Invalid symbol! Choose 'X' or 'O'.")
                 continue
             line3[line3.index(choice)] = symbol
             break
         else:
-            print("🚫 That position is already taken!")
+            print(" That position is already taken!")
 
 # Game loop
 display()
@@ -110,7 +110,7 @@ for _ in range(9):  # max moves
         print("\n🎉 Congratulations! You won the game 🏆")
         break
 else:
-    print("\n🤝 It's a draw!")
+    print("\n It's a draw!")
 ```
 
 ## 🛠️ Technologies Used
