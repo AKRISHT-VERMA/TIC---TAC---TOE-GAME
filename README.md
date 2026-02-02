@@ -1,6 +1,6 @@
-# 🎮 Tic Tac Toe  
+#  Tic Tac Toe  
 
-A fun **Tic Tac Toe game** built with Python 🐍.  
+A fun **Tic Tac Toe game** built with Python .  
 Play in the **terminal** using **dial pad-style numbering (1–9)** for selecting box positions.  
 
 ---
@@ -25,8 +25,8 @@ cd tic-tac-toe
 ```python
 
 
-print("🎮 WELCOME TO THE TIC - TAC - TOE GAME 🎮")
-print("📌 THIS GAME USES DIAL-PAD STYLE NUMBERING (1–9) FOR POSITIONS\n")
+print(" WELCOME TO THE TIC - TAC - TOE GAME ")
+print(" THIS GAME USES DIAL-PAD STYLE NUMBERING (1–9) FOR POSITIONS\n")
 
 # Initial board setup
 line1 = [1, 2, 3]
@@ -35,7 +35,7 @@ line3 = [7, 8, 9]
 
 
 def display():
-    print("\n🟦 THE CURRENT TIC - TAC - TOE BOARD 🟦")
+    print("\n THE CURRENT TIC - TAC - TOE BOARD ")
     print(line1)
     print(line2)
     print(line3)
@@ -107,7 +107,7 @@ for _ in range(9):  # max moves
     position()
     display()
     if check_winner():
-        print("\n🎉 Congratulations! You won the game 🏆")
+        print("\n Congratulations! You won the game ")
         break
 else:
     print("\n It's a draw!")
