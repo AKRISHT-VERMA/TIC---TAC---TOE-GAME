@@ -5,7 +5,8 @@ Play in the **terminal** using **dial pad-style numbering (1–9)** for selectin
 
 ---
 
-## ✨ Features  
+## ✨
+Features  
 ✅ Classic **3x3 Tic Tac Toe** board  
 ✅ Play with a friend in the terminal  
 ✅ Uses **dial pad layout** for moves  
